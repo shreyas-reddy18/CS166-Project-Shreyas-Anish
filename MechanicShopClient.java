@@ -3,10 +3,10 @@ import java.util.Scanner;
 
 public class MechanicShopClient {
     // Database credentials
-    static final String DB_URL = "jdbc:postgresql://localhost:5432/your_database_name";
-    static final String USER = "your_username";
-    static final String PASS = "your_password";
-
+    static final String DB_URL = "jdbc:postgresql://localhost:35749/snall008_DB_Project";
+    static final String USER = "snall008";
+    static final String PASS = ""; 
+    
     public static void main(String[] args) {
         try (Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
              Scanner scanner = new Scanner(System.in)) {
